@@ -1,0 +1,24 @@
+@use '@styles/mixin.module.scss' as *;
+@use '@styles/variable.module.scss' as *;
+
+.icon__header,
+.icon__header__right {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    background-color: black;
+    @include radius_common(50%);
+}
+
+.icon__header__right {
+    color: #333;
+    font-size: 2rem;
+    background-color: #fff !important;
+}
+
+.icon__header + .icon__header {
+    margin-left: 10px;
+}
