@@ -1,5 +1,5 @@
-@use '@styles/mixin.module.scss' as *;
-@use '@styles/variable.module.scss' as *;
+@use '@/assets/styles/mixin.module.scss' as *;
+@use '@/assets/styles/variable.module.scss' as *;
 
 .icon__header,
 .icon__header__right {
@@ -16,7 +16,7 @@
 .icon__header__right {
     color: #333;
     font-size: 2rem;
-    background-color: #fff !important;
+    background-color: #ebe6e3;
 }
 
 .icon__header + .icon__header {

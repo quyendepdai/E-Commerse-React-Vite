@@ -1,0 +1,47 @@
+@use '@/assets/styles/variable.module.scss' as *;
+
+.container-header {
+    background-image: url('../../assets/images/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    position: relative;
+    width: 100vw;
+}
+.container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advance--heading {
+    margin-top: 144px;
+    text-align: center;
+    position: relative;
+    p {
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        color: $thr_color;
+    }
+    h2 {
+        font-size: 2.4rem;
+        color: #333333;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .headline {
+        width: 430px;
+        height: 4px;
+        border-bottom: 1px solid #e1e1e1;
+        border-top: 1px solid #e1e1e1;
+    }
+    .headline-left {
+        position: absolute;
+        left: 0;
+        top: 72%;
+    }
+    .headline-right {
+        position: absolute;
+        right: 0;
+        top: 72%;
+    }
+}

@@ -1,14 +1,21 @@
-@use '@styles/mixin.module.scss' as *;
-@use '@styles/variable.module.scss' as *;
+@use '@/assets/styles/mixin.module.scss' as *;
+@use '@/assets/styles/variable.module.scss' as *;
+
+.wrapper {
+    width: 100vw;
+    background-color: #ebe6e3;
+    display: flex;
+    justify-content: center;
+}
 
 .header {
-    width: 100%;
+    width: 1250px;
     height: 83px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 0;
-
+    background-color: #ebe6e3;
     .header__logo {
         width: 153px;
         height: 53px;

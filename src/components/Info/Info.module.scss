@@ -1,0 +1,50 @@
+@use '@/assets/styles/variable.module.scss' as *;
+
+.wrapper {
+    width: 100%;
+    background-color: #ebe6e3;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1250px;
+    height: 145px;
+    background: $thr_color;
+    position: absolute;
+    bottom: -72px;
+    left: auto;
+    padding: 0 55px;
+    .info__item {
+        display: flex;
+        padding: 15px;
+        font-weight: 400;
+        height: 105px;
+        .info__item__icon {
+            display: flex;
+            align-items: center;
+            transform: rotateY(180deg);
+            font-size: 3rem;
+            color: #c2c2c2;
+            margin-right: 20px;
+        }
+        .info__item__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .info__item__text__title {
+                color: white;
+                font-size: 1.7rem;
+                line-height: 22px;
+            }
+            .info__item__text__desc {
+                color: #ffffffc7;
+                font-size: 1.6rem;
+                line-height: 21px;
+            }
+        }
+    }
+}

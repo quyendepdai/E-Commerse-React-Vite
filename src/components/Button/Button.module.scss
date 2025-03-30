@@ -1,0 +1,42 @@
+.btn {
+    font-size: 14px;
+    font-weight: 400;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #333333;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #333333;
+    border-radius: 3px 3px 3px 3px;
+    padding: 13px 45px 13px 45px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: #333333;
+        background-color: #ffffff;
+    }
+}
+
+.btn-banner {
+    margin-top: 40px;
+}
+.secondary {
+    color: #333333;
+    background-color: #ffffff;
+    &:hover {
+        color: #ffffff;
+        background-color: #333333;
+    }
+}
+
+.small {
+    font-size: 12px;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.secondary.upperCase {
+    border-radius: 5px;
+}

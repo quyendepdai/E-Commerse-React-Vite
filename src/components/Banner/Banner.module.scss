@@ -1,0 +1,24 @@
+@use '@/assets/styles/mixin.module.scss' as *;
+
+.banner {
+    @include flex_box_custom(center, center, 0px);
+    height: calc(750px - 83px);
+}
+
+.banner-content {
+    height: 209px;
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        text-transform: capitalize;
+        font-weight: 400;
+        line-height: 52px;
+        color: #222222;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #555555;
+    }
+}
