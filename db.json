@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "title": "10K Yellow Gold",
+            "image1": "https://example.com/images/product1_1.jpg",
+            "image2": "https://example.com/images/product1_2.jpg",
+            "price": 99.99
+        },
+        {
+            "title": "Consectetur nibh at",
+            "image1": "https://example.com/images/product2_1.jpg",
+            "image2": "https://example.com/images/product2_2.jpg",
+            "price": 119.99
+        },
+        {
+            "title": "Volutpat lacus",
+            "image1": "https://example.com/images/product3_1.jpg",
+            "image2": "https://example.com/images/product3_2.jpg",
+            "price": 888.99
+        },
+        {
+            "title": "Áo Khoác Nữ Dạ",
+            "image1": "https://example.com/images/product4_1.jpg",
+            "image2": "https://example.com/images/product4_2.jpg",
+            "price": 900000
+        }
+    ]
+}

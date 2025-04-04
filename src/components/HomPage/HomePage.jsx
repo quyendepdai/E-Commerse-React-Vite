@@ -6,8 +6,7 @@ const cx = classNames.bind(styles);
 import Header from '@/components/Header/Header';
 import Banner from '@/components/Banner/Banner';
 import Info from '@/components/Info/Info';
-import ListProducts from '../ListProducts/ListProducts';
-import MainLayout from '../Layout/Layout';
+import HeadingListProduct from '@/components/HeadingListProduct/HeadingListProduct';
 
 const HomePage = () => {
     return (
@@ -17,16 +16,16 @@ const HomePage = () => {
                 <Banner />
                 <Info />
             </div>
-            <MainLayout>
-                <div className={cx('container-content')}></div>
+            <main className={cx('wrap-layout')}>
                 <div className={cx('advance--heading')}>
                     <p>don't miss super offers</p>
                     <h2>Our best products</h2>
                     <div className={cx('headline-left', 'headline')}></div>
                     <div className={cx('headline-right', 'headline')}></div>
                 </div>
-                <ListProducts />
-            </MainLayout>
+
+                <HeadingListProduct />
+            </main>
         </>
     );
 };

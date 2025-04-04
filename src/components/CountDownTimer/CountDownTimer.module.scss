@@ -1,0 +1,19 @@
+.item {
+    margin: 5px;
+    background: #ffffff;
+    padding: 12px 8px;
+    border-radius: 3px;
+
+    .item__desc,
+    .item_number {
+        font-size: 1.8rem;
+    }
+    .item_number {
+        color: #333;
+    }
+
+    .item__desc {
+        color: #888888;
+        margin-left: 8px;
+    }
+}

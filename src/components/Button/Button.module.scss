@@ -7,8 +7,8 @@
     border-style: solid;
     border-width: 1px 1px 1px 1px;
     border-color: #333333;
-    border-radius: 3px 3px 3px 3px;
-    padding: 13px 45px 13px 45px;
+    border-radius: 3px;
+    padding: 13px 45px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     &:hover {
@@ -39,4 +39,11 @@
 
 .secondary.upperCase {
     border-radius: 5px;
+}
+
+.count-down-banner-btn {
+    padding: 10px 50px;
+    &:hover {
+        background-color: transparent;
+    }
 }

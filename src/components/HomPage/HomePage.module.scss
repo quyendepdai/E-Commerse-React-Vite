@@ -6,15 +6,18 @@
     background-size: cover;
     min-height: 750px;
     position: relative;
-    width: 100vw;
 }
-.container-content {
+.wrap-layout {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
+
 .advance--heading {
+    width: 1230px;
     margin-top: 144px;
+    margin-bottom: 30px;
+    padding: 0 15px;
     text-align: center;
     position: relative;
     p {
@@ -27,6 +30,7 @@
         color: #333333;
         line-height: 32px;
         margin-bottom: 20px;
+        font-weight: 400;
     }
     .headline {
         width: 430px;
@@ -37,11 +41,11 @@
     .headline-left {
         position: absolute;
         left: 0;
-        top: 72%;
+        top: 52%;
     }
     .headline-right {
         position: absolute;
         right: 0;
-        top: 72%;
+        top: 52%;
     }
 }
